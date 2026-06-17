@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ARCHIVE 523</title>
+
+<style>
+body{
+background:black;
+color:#00ff88;
+font-family:monospace;
+text-align:center;
+padding-top:100px;
+}
+
+a{
+color:#00ff88;
+text-decoration:none;
+font-size:20px;
+}
+
+.hidden{
+display:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>ARCHIVE 523</h1>
+
+<p>Some files were never meant to be found.</p>
+
+<br>
+
+<a href="#">CASE FILES</a>
+
+<br><br>
+
+<a href="#" onclick="reveal()">RESTRICTED ACCESS</a>
+
+<div id="secret" class="hidden">
+
+<br><br>
+
+<p>CLEARANCE LEVEL ACCEPTED</p>
+
+<a href="secret.html">OPEN FILE</a>
+
+</div>
+
+<script>
+function reveal(){
+document.getElementById("secret").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
